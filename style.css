@@ -315,10 +315,6 @@ body {
         padding: 24px;
     }
 }
-/* =========================
-   BUYER HOME PAGE UI
-   Replace your existing CSS
-   ========================= */
 
 /* PAGE BACKGROUND */
 #section-seller-home-page {
@@ -643,14 +639,14 @@ body {
 
 .collection-bottom {
     background-color: #f4f8f2;
-    padding: 20px;
+    padding: 10px 15px;   /* Reduced left and right space */
 }
 
 .each-card {
     background: white;
     border-radius: 22px;
     padding: 15px;
-    margin: 12px;
+    margin: 8px;          /* Reduced outer space around cards */
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
 }
@@ -996,4 +992,38 @@ body {
         text-align: center;
         padding: 13px 24px;
     }
+}
+
+.collection-bottom .container {
+    max-width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.collection-bottom .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.collection-bottom [class*="col-"] {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.collection-bottom {
+    background-color: #f4f8f2;
+    padding: 10px 0;
+}
+
+.each-card {
+    background: white;
+    border-radius: 22px;
+    padding: 15px;
+    margin: 5px 0; /* only top and bottom margin */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.each-card:hover {
+    transform: translateY(-8px);
 }
