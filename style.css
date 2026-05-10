@@ -1040,26 +1040,26 @@ body {
     /* ================= LOGIN PAGE ================= */
 
     .logo {
-        width: 140px;
-        height: 140px;
+        width: 240px;
+        height: 240px;
     }
 
     .company-name {
-        font-size: 42px;
+        font-size: 52px;
         letter-spacing: 2px;
-        line-height: 1.2;
+        line-height: 1.5;
     }
 
     .tagline {
-        font-size: 22px;
+        font-size: 40px;
         line-height: 1.9;
         padding: 0 10px;
     }
 
     .button-login-page {
         width: 260px;
-        height: 58px;
-        font-size: 18px;
+        height: 68px;
+        font-size: 25px;
     }
 
     .head-entry-page {
@@ -1069,27 +1069,27 @@ body {
     /* ================= ABOUT US ================= */
 
     .head-entry-2 {
-        font-size: 34px;
+        font-size: 40px;
     }
 
     .feature-item {
-        font-size: 20px;
+        font-size: 30px;
         line-height: 1.8;
     }
 
     .feature-item i {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     /* ================= DIVISION PAGE ================= */
 
     .division-heading {
-        font-size: 42px;
+        font-size: 50px;
         line-height: 1.2;
     }
 
     .division-subheading {
-        font-size: 20px;
+        font-size: 30px;
         line-height: 1.9;
     }
 
@@ -1098,22 +1098,22 @@ body {
     }
 
     .division-image {
-        max-width: 300px;
-        height: 300px;
+        max-width: 400px;
+        height: 400px;
     }
 
     .division-title {
-        font-size: 32px;
+        font-size: 40px;
     }
 
     .division-description {
-        font-size: 18px;
+        font-size: 25px;
         line-height: 1.9;
     }
 
     .division-button,
     .division-back-button {
-        font-size: 17px;
+        font-size: 25px;
         padding: 14px 34px;
     }
 
@@ -1133,8 +1133,8 @@ body {
     }
 
     .seller-card-top-image {
-        width: 220px;
-        height: 220px;
+        width: 320px;
+        height: 320px;
     }
 
     .images-around {
